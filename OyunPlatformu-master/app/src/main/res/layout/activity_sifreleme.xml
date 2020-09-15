@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".SifrelemeActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_gravity="center"
+        android:text="@string/heading_sifreleme"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/sifreleBaslik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/sifreleme"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/sifreleGiris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="text"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnSifrele"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/sifrele_btn_text"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/sifreCozBaslik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/sifre_cozme"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/sifreCozGiris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="text"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnSifreCoz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/sifre_coz_btn_text"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp" />
+
+</LinearLayout>

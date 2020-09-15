@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_sonuc" type="id" />
+    <item name="one" type="id" />
+    <item name="two" type="id" />
+    <item name="three" type="id" />
+    <item name="kadin" type="id" />
+    <item name="erkek" type="id" />
+    <item name="cocukvar_esyok" type="id" />
+    <item name="cocukvar_esvar" type="id" />
+    <item name="cocukyok_esvar" type="id" />
+    <item name="cocukyok_esyok" type="id" />
+    <item name="ilk_aralik" type="id" />
+    <item name="ikinci_aralik" type="id" />
+    <item name="ucuncu_aralik" type="id" />
+    <item name="dorduncu_aralik" type="id" />
+    <item name="odenen_ilk" type="id" />
+    <item name="odenen_ikinci" type="id" />
+    <item name="btn_sonuc_journey" type="id" />
+    <item name="yas5_radio" type="id" />
+    <item name="yas10_radio" type="id" />
+    <item name="uzaklik0_radio" type="id" />
+    <item name="uzaklik1_radio" type="id" />
+    <item name="arkadas0_radio" type="id" />
+    <item name="arkadas1_radio" type="id" />
+</resources>

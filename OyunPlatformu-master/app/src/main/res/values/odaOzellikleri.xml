@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kacilabilirOda1">
+        <item>Işık Türü: Lamba</item>
+        <item>Nem Miktarı: Nemli</item>
+        <item>Sıcaklık: 28 Derece</item>
+        <item>Duvar Rengi: Beyaz</item>
+        <item>Zemin Türü: Halı</item>
+        <item>Koltuk Sayısı: 3</item>
+        <item>Pencere Sayısı: 5</item>
+        <item>Oda Boyutu: 18 Metrekare</item>
+        <item>Gürültü Boyutu: 2</item>
+        <item>Ayna Sayısı: Yok</item>
+    </string-array>
+
+    <string-array name="kacilabilirOda2">
+        <item>Işık Türü: Florasan</item>
+        <item>Nem Miktarı: Az Nemli</item>
+        <item>Sıcaklık: 30 Derece</item>
+        <item>Duvar Rengi: Gri</item>
+        <item>Zemin Türü: Fayans</item>
+        <item>Koltuk Sayısı: 2</item>
+        <item>Pencere Sayısı: 4</item>
+        <item>Oda Boyutu: 17 Metrekare</item>
+        <item>Gürültü Boyutu: 1</item>
+        <item>Ayna Sayısı: 2 </item>
+    </string-array>
+
+    <string-array name="kacilabilirOda3">
+        <item>Işık Türü: Florasan</item>
+        <item>Nem Miktarı: Az Nemli</item>
+        <item>Sıcaklık: 26 Derece</item>
+        <item>Duvar Rengi: Siyah</item>
+        <item>Zemin Türü: Halı</item>
+        <item>Koltuk Sayısı: Yok</item>
+        <item>Pencere Sayısı: 4</item>
+        <item>Oda Boyutu: 12 Metrekare</item>
+        <item>Gürültü Boyutu: Yok</item>
+        <item>Ayna Sayısı: 2</item>
+    </string-array>
+
+    <string-array name="kacilabilirOda4">
+        <item>Işık Türü: Loş Işık</item>
+        <item>Nem Miktarı: Nemsiz</item>
+        <item>Sıcaklık: 20 Derece</item>
+        <item>Duvar Rengi: Kahverengi</item>
+        <item>Zemin Türü: Tahta</item>
+        <item>Koltuk Sayısı: 2</item>
+        <item>Pencere Sayısı: 6</item>
+        <item>Oda Boyutu: 20 Metrekare</item>
+        <item>Gürültü Boyutu: 4</item>
+        <item>Ayna Sayısı: Yok</item>
+    </string-array>
+
+    <string-array name="kacilabilirOda5">
+        <item>Işık Türü: Mum Işığı</item>
+        <item>Nem Miktarı: Az Nemli</item>
+        <item>Sıcaklık: 17 Derece</item>
+        <item>Duvar Rengi: Beyaz</item>
+        <item>Zemin Türü: Halı</item>
+        <item>Koltuk Sayısı: 5</item>
+        <item>Pencere Sayısı: 2</item>
+        <item>Oda Boyutu: 18 Metrekare</item>
+        <item>Gürültü Boyutu: 3</item>
+        <item>Ayna Sayısı: 4</item>
+    </string-array>
+
+    <string-array name="kacilamayanOda1">
+        <item>Işık Türü: Yok</item>
+        <item>Nem Miktarı: Kuru</item>
+        <item>Sıcaklık: 25 Derece</item>
+        <item>Duvar Rengi: Siyah</item>
+        <item>Zemin Türü: Taş</item>
+        <item>Koltuk Sayısı: 2</item>
+        <item>Pencere Sayısı: 5</item>
+        <item>Oda Boyutu: 14 Metrekare</item>
+        <item>Gürültü Boyutu: 7</item>
+        <item>Ayna Sayısı: 1</item>
+    </string-array>
+
+    <string-array name="kacilamayanOda2">
+        <item>Işık Türü: Ampul</item>
+        <item>Nem Miktarı: Nemli</item>
+        <item>Sıcaklık: 28 Derece</item>
+        <item>Duvar Rengi: Gri</item>
+        <item>Zemin Türü: Tahta</item>
+        <item>Koltuk Sayısı: 3</item>
+        <item>Pencere Sayısı: 2</item>
+        <item>Oda Boyutu: 10 Metrekare</item>
+        <item>Gürültü Boyutu: 1</item>
+        <item>Ayna Sayısı: Yok</item>
+    </string-array>
+
+    <string-array name="kacilamayanOda3">
+        <item>Işık Türü: Loş Işık</item>
+        <item>Nem Miktarı: Çok Nemli</item>
+        <item>Sıcaklık: 20 Derece</item>
+        <item>Duvar Rengi: Beyaz</item>
+        <item>Zemin Türü: Fayans</item>
+        <item>Koltuk Sayısı: Yok</item>
+        <item>Pencere Sayısı: 4</item>
+        <item>Oda Boyutu: 8 Metrekare</item>
+        <item>Gürültü Boyutu: 8</item>
+        <item>Ayna Sayısı: 1</item>
+    </string-array>
+
+    <string-array name="kacilamayanOda4">
+        <item>Işık Türü: Florasan</item>
+        <item>Nem Miktarı: Kuru</item>
+        <item>Sıcaklık: 27 Derece</item>
+        <item>Duvar Rengi: Kahverengi</item>
+        <item>Zemin Türü: Taş</item>
+        <item>Koltuk Sayısı: Yok</item>
+        <item>Pencere Sayısı: 2</item>
+        <item>Oda Boyutu: 20 Metrekare</item>
+        <item>Gürültü Boyutu: 10</item>
+        <item>Ayna Sayısı: 3</item>
+    </string-array>
+
+    <string-array name="kacilamayanOda5">
+        <item>Işık Türü: Mum Işığı</item>
+        <item>Nem Miktarı: Nemli</item>
+        <item>Sıcaklık: 16 Derece</item>
+        <item>Duvar Rengi: Sarı</item>
+        <item>Zemin Türü: Fayans</item>
+        <item>Koltuk Sayısı: 4</item>
+        <item>Pencere Sayısı: 7</item>
+        <item>Oda Boyutu: 5 Metrekare</item>
+        <item>Gürültü Boyutu: 12</item>
+        <item>Ayna Sayısı: Yok</item>
+    </string-array>
+</resources>

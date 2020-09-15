@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TavsanActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/niyet_heading"
+        android:textSize="30sp"
+        android:textColor="@color/colorOrange"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_niyet"
+        android:layout_width="162dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="475dp"
+        android:background="@color/colorOrange"
+        android:text="@string/btn_niyet_text"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorWhite"
+        tools:ignore="MissingConstraints"
+         />
+
+    <ImageView
+        android:id="@+id/img_tavsan"
+        android:layout_width="275dp"
+        android:layout_height="352dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="80dp"
+        android:src="@drawable/tavsan"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/img_ters_havuc"
+        android:layout_width="104dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="289dp"
+        android:layout_marginStart="55dp"
+        android:src="@drawable/ters_havuc"
+        tools:ignore="MissingConstraints"
+       />
+
+</RelativeLayout>

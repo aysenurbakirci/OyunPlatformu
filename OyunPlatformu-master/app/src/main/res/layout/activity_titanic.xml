@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout_titanic"
+    android:weightSum="1"
+    tools:ignore="ContentDescription"
+    android:background="@color/colorWhite"
+    tools:context=".TitanicActivity">
+
+    <TextView
+        android:id="@+id/bilet_sinifi_text"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/bilet_sinifi"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:id="@+id/bilet_sinifi_group"
+        android:layout_width="134dp"
+        android:layout_marginStart="16dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <RadioButton
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2" />
+
+        <RadioButton
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/cinsiyet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/cinsiyet_text"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginBottom="5dp"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:id="@+id/cinsiyet_group"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/kadin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kadın" />
+
+        <RadioButton
+            android:id="@+id/erkek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Erkek" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/cocuk_es"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/cocuk_es_text"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:id="@+id/cocuk_es_group"
+        android:layout_width="196dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/cocukvar_esyok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cocukvar_esyok" />
+
+        <RadioButton
+            android:id="@+id/cocukvar_esvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cocukvar_esvar" />
+
+        <RadioButton
+            android:id="@+id/cocukyok_esvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cocukyok_esvar" />
+
+        <RadioButton
+            android:id="@+id/cocukyok_esyok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cocukyok_esyok" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/yas_araligi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/yas_araligi"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:id="@+id/yas_araligi_group"
+        android:layout_width="108dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/ilk_aralik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ilk_aralik" />
+
+        <RadioButton
+            android:id="@+id/ikinci_aralik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ikinci_aralik" />
+
+        <RadioButton
+            android:id="@+id/ucuncu_aralik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ucuncu_aralik" />
+
+        <RadioButton
+            android:id="@+id/dorduncu_aralik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dorduncu_aralik" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/odenen_para"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/odenen_para"
+        android:textSize="15dp"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:id="@+id/odenen_para_group"
+        android:layout_width="114dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/odenen_ilk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/odenen_ilk" />
+
+        <RadioButton
+            android:id="@+id/odenen_ikinci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/odenen_ikinci" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_sonuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/sonuc"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="@color/colorWhite"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>

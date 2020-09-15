@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KutuphaneActivity">
+
+    <TextView
+        android:id="@+id/kitap"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="@string/uyg_baslik"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:layout_marginStart="5dp" />
+
+    <TextView
+        android:id="@+id/turBaslik"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/tur_sec"
+        android:layout_below="@id/kitap" />
+
+    <RadioGroup
+        android:id="@+id/turler"
+        android:layout_marginStart="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/turBaslik">
+
+        <RadioButton
+            android:id="@+id/masal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/masal"/>
+
+        <RadioButton
+            android:id="@+id/bilim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/bilim"/>
+
+        <RadioButton
+            android:id="@+id/siir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/siir"/>
+
+        <RadioButton
+            android:id="@+id/roman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/roman"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/konuBaslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/konu"
+        android:layout_marginTop="15dp"
+        android:textSize="17dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@id/turler"
+        android:layout_marginStart="16dp" />
+
+    <RadioGroup
+        android:id="@+id/konular"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/konuBaslik">
+
+        <RadioButton
+            android:id="@+id/cocuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/cocuk"/>
+
+        <RadioButton
+            android:id="@+id/uzay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/uzay"/>
+
+        <RadioButton
+            android:id="@+id/romantik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/romantik"/>
+
+        <RadioButton
+            android:id="@+id/dusunce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/dusunce"/>
+
+        <RadioButton
+            android:id="@+id/psikoloji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/psikoloji"/>
+
+        <RadioButton
+            android:id="@+id/aksiyon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/aksiyon"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnBul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/konular"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/btn_bul_text"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:textSize="15dp" />
+
+</RelativeLayout>

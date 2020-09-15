@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ZombiActivity">
+
+    <TextView
+        android:id="@+id/baslik"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zombi_heading"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/isikSeciniz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/isik_turu"
+        android:layout_marginStart="16dp"
+        android:textSize="17dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@id/baslik"/>
+
+    <RadioGroup
+        android:id="@+id/isikTuru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_below="@id/isikSeciniz">
+
+        <RadioButton
+            android:id="@+id/isikYok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/isik_yok"/>
+
+        <RadioButton
+            android:id="@+id/floresan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/floresan"/>
+
+        <RadioButton
+            android:id="@+id/losisik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/los"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/nemSeciniz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        android:text="@string/nem_miktari"
+        android:layout_below="@id/isikTuru"/>
+
+    <RadioGroup
+        android:id="@+id/nemMiktari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_below="@id/nemSeciniz">
+
+        <RadioButton
+            android:id="@+id/kuru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/kuru"/>
+
+        <RadioButton
+            android:id="@+id/azNemli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/az_nemli"/>
+
+        <RadioButton
+            android:id="@+id/nemli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/nemli_ortam"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/zeminSeciniz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/zemin"
+        android:textSize="17dp"
+        android:layout_below="@id/nemMiktari"/>
+
+    <RadioGroup
+        android:id="@+id/zeminTuru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_below="@id/zeminSeciniz">
+
+        <RadioButton
+            android:id="@+id/hali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/hali"/>
+
+        <RadioButton
+            android:id="@+id/tas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/tas"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/sicaklikSeciniz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sicaklik"
+        android:textSize="17dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginStart="16dp"
+        android:layout_below="@id/zeminTuru"/>
+
+    <EditText
+        android:id="@+id/sicaklik"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="number"
+        android:layout_below="@id/sicaklikSeciniz"/>
+
+    <TextView
+        android:id="@+id/pencere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textSize="17dp"
+
+        android:text="@string/pencere"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@id/sicaklik"/>
+
+    <EditText
+        android:id="@+id/pencereSayisi"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="number"
+        android:layout_below="@id/pencere"/>
+
+    <TextView
+        android:id="@+id/gurultu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/gurultu"
+        android:textSize="17dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@id/pencereSayisi"/>
+
+    <EditText
+        android:id="@+id/gurultuDerecesi"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="number"
+        android:layout_below="@id/gurultu"/>
+
+    <Button
+        android:id="@+id/btnSec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/btn_sec_text"
+        android:layout_below="@id/gurultuDerecesi"/>
+</RelativeLayout>

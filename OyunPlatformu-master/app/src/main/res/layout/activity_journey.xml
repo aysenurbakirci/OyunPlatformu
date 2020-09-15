@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout_journey"
+    android:weightSum="1"
+    tools:ignore="ContentDescription"
+    android:background="@color/colorWhite"
+    tools:context=".JourneyActivity">
+
+    <TextView
+        android:id="@+id/textViewJourney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="@string/heading_journey"
+        android:layout_marginStart="16dp"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:textSize="17dp"
+        android:text="@string/yas_text"
+        android:textColor="@color/colorPrimaryDark"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:id="@+id/yas_araligi_group_journey"
+        android:layout_width="114dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/yas5_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/yas5" />
+
+        <RadioButton
+            android:id="@+id/yas10_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/yas10" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/uzaklik_text"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:id="@+id/uzaklik_group"
+        android:layout_width="149dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/uzaklik0_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/uzaklik0_text" />
+
+        <RadioButton
+            android:id="@+id/uzaklik1_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/uzaklik1_text" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/arkadas_text"
+        android:textSize="17dp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:id="@+id/arkadas_group"
+        android:layout_width="185dp"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="23dp"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/arkadas0_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/arkadas0_text" />
+
+        <RadioButton
+            android:id="@+id/arkadas1_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/arkadas1_text" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_sonuc_journey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/btn_sonuc_text_journey"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/colorWhite"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout_noughts"
+    android:weightSum="1"
+    tools:ignore="ContentDescription"
+    android:background="@color/colorWhite"
+    tools:context=".DiceActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:textSize="18dp"
+        android:text="@string/zar_tahmin"
+        android:textColor="@color/colorPrimaryDark"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:id="@+id/zar_group1_noughts"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/zar1_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zar1"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/zar2_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zar2"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/zar3_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zar3"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/zar4_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-121dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/zar4"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/zar5_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/zar5"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/zar6_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-0dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/zar6"
+            android:textSize="15dp" />
+    </RadioGroup>
+
+
+    <ImageView
+        android:id="@+id/img_dice"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="60dp"
+        android:src="@drawable/dice1"/>
+
+</LinearLayout>
